@@ -5,9 +5,9 @@ img = imread('C:\Users\Veterano\Documents\H_Topics\Aula1\lena512.bmp');
 
 imgBkQuad = img;
 
-for col = 1:35
-  for lin = 1:55
-    imgBkQuad(col,lin) = 0;
+for col = 1:512
+  for lin = 1:512
+    imgBkQuad(col,lin) += 100;
   endfor
 endfor
 
