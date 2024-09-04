@@ -3,16 +3,22 @@ clc;
 
 img = imread('C:\Users\Veterano\Documents\H_Topics\Aula1\lena512.bmp');
 
-imgBkQuad = img;
+imgBin = img;
 
-for col = 1:512
-  for lin = 1:512
-    imgBkQuad(col,lin) += 100;
+[M, N] = size(img);
+
+for i = 1:M
+  for j = 1:N
+    if img(i,j) >= 127
+      imgBin(i,j) = 255;
+    else
+      imgBin(i,j) = 0;
+    endif
   endfor
 endfor
 
-figure(1),imshow(img)
-figure(2),imshow(imgBkQuad)
+figure(1),imshow(img);
+figure(2),imshow(imgBin);
 
 
 
