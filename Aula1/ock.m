@@ -9,10 +9,14 @@ imgBin = img;
 
 for i = 1:M
   for j = 1:N
-    if img(i,j) >= 127
-      imgBin(i,j) = 255;
-    else
+    if img(i,j) <= 64
       imgBin(i,j) = 0;
+    elseif img(i,j) <= 128
+      imgBin(i,j) = 128;
+    elseif img(i,j) <= 256
+      imgBin(i,j) = 192;
+    elseif img(i,j) <= 384
+      imgBin(i,j) = 255;
     endif
   endfor
 endfor
