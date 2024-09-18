@@ -1,7 +1,7 @@
 pkg load image;
 clc;
 
-img = imread('C:\Users\Veterano\Documents\H_Topics\Aula1\lena512.bmp');
+img = imread('C:\Users\Veterano\Documents\H_Topicos\Aula1\lena512.bmp');
 
 #img2 = img;
 

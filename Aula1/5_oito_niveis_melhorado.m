@@ -3,8 +3,8 @@ clc;
 
 
 
-imgLena = imread('C:\Users\Veterano\Documents\H_Topics\Aula1\lena512.bmp');
-imgIf = imread('C:\Users\Veterano\Documents\H_Topics\Aula1\if30.bmp');
+imgLena = imread('C:\Users\Veterano\Documents\H_Topicos\Aula1\lena512.bmp');
+imgIf = imread('C:\Users\Veterano\Documents\H_Topicos\Aula1\if30.bmp');
 
 [M,N]= size(imgIf);
 imgEdt = imgLena;
