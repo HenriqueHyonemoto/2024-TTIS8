@@ -13,6 +13,8 @@ figure(2),colormap(gray),imshow(imgEq), title('Imagem Equalizada');
 figure(3),colormap(gray),imhist(imgEsc), title('Histograma Imagem Escura');
 figure(4),colormap(gray),imhist(imgEq), title('Histograma Imagem Equalizada');
 
+imwrite(imgEq,'imagemEqualizadaAula.bmp');
+
 
 
 
