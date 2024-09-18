@@ -1,8 +1,6 @@
 pkg load image;
 clc;
 
-
-
 imgLena = imread('C:\Users\Veterano\Documents\H_Topics\Aula1\lena512.bmp');
 imgIf = imread('C:\Users\Veterano\Documents\H_Topics\Aula1\if30.bmp');
 
@@ -19,7 +17,7 @@ end
 figure(1),subplot(1,3,1),imshow(imgLena); #dentro dele subplot(1,3,1), significa que tem 1 LINHA dividida em 3 COLUNAS, o ultimo numero é a posição do quadrado (1º POSIÇÃO)
 figure(1),subplot(1,3,2),imshow(imgIf);
 figure(1),subplot(1,3,3),imshow(imgEdt);
-imwrite(imgEdt, 'lenaif.bmp');
+imwrite(imgEdt, 'lenaif.bmp'); #função pra salvar imagem no PC
 
 
 
