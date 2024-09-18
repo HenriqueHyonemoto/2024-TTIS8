@@ -16,7 +16,7 @@ end
 end
 
 
-figure(1),subplot(1,3,1),imshow(imgLena);
+figure(1),subplot(1,3,1),imshow(imgLena); #dentro dele subplot(1,3,1), significa que tem 1 LINHA dividida em 3 COLUNAS, o ultimo numero é a posição do quadrado (1º POSIÇÃO)
 figure(1),subplot(1,3,2),imshow(imgIf);
 figure(1),subplot(1,3,3),imshow(imgEdt);
 imwrite(imgEdt, 'lenaif.bmp');
