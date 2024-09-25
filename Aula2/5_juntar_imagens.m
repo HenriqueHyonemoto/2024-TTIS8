@@ -1,8 +1,8 @@
 pkg load image;
 clc;
 
-a = imread('C:\Users\Veterano\Documents\H_Topicos\Aula2\lena128.bmp');
-b = imread('C:\Users\Veterano\Documents\H_Topicos\Aula2\cameraman128.bmp');
+a = imread('lena128.bmp');
+b = imread('cameraman128.bmp');
 c = uint8(zeros(128,256));
 
 for i = 1:128
