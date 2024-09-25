@@ -5,8 +5,10 @@ a = imread('lena128.bmp');
 b = imread('cameraman128.bmp');
 c = uint8(zeros(256,128));
 
-for i = 1:128
-    for j = 1:256
+[M,N]= size('lena128.bmp');
+
+for i = 1:256
+    for j = 1:128
         if j<129
            c(i,j) = a(i,j);
          else
