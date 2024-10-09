@@ -1,8 +1,8 @@
 pkg load image;
 clc;
 
-imgLena = imread('C:\Users\Veterano\Documents\H_Topicos\Aula1\lena512.bmp');
-imgIf = imread('C:\Users\Veterano\Documents\H_Topicos\Aula1\if30.bmp');
+imgLena = imread('Clena512.bmp');
+imgIf = imread('if30.bmp');
 
 [M,N]= size(imgIf);
 imgEdt = imgLena;
