@@ -6,14 +6,12 @@ pkg load signal;
 
 img = imread("Lena512.bmp");
 
-imgMat = rand(8,8);
-imgMat = img*255;
-imgMat = uint8(img);
+#imgMat = rand(8,8);
+#imgMat = img*255;
+#imgMat = uint8(img);
 
 #transformada cosseno
 imgDct = dct2(img);
-
-
 imgDctAlt = imgDct;
 
 #alteração 4 pixeis canto superior esquerdo
@@ -42,3 +40,5 @@ figure(1),subplot(2,3,2),imshow(imgDct);
 figure(1),subplot(2,3,3),colormap(gray),image(imgDctAlt);
 #img original dominio da frequencia
 figure(1),subplot(2,3,4),imshow(imgAlt);
+
+# digitar na janela de comandos para comparar a diferença entre as imagens: corr2(img, imgAlt)
