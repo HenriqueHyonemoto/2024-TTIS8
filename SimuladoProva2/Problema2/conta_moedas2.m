@@ -1,36 +1,10 @@
-<<<<<<< HEAD
-pkg load image;
 clc;
 clear all;
-% Leia a imagem (substitua 'imagem.jpg' pelo caminho do arquivo)
-img = imread('moeda5.bmp');
-
-% Converta a imagem para tons de cinza (caso não seja)
-if size(img, 3) == 3
-    img_gray = rgb2gray(img);
-else
-    img_gray = img;
-end
-
-% Normalizar a imagem para o intervalo [0, 1]
-img_normalized = double(img_gray) / 255;
-
-% Divida em 4 níveis de cinza
-% Os níveis serão: 0, 85, 170, 255 (equivalentes a 0, 1/3, 2/3 e 1 em escala normalizada)
-img_quantized = round(img_normalized * 3) / 3;
-
-% Converta de volta para o intervalo [0, 255]
-img_final = uint8(img_quantized * 255);
-
-% Salve ou visualize a imagem resultante
-imshow(img_final);
-
-
-=======
-pkg load image;  % Carregar o pacote de imagem no Octave
+pkg load image;
 
 % Carregar a imagem
-img = imread('moeda4.bmp');
+imgOriginal = imread('moeda4.bmp');
+img=imgOriginal;
 
 if size(img, 3) == 3
     img = rgb2gray(img);
@@ -57,6 +31,9 @@ img_aberta = imdilate(img_aberta, se);  % Dilatação
 
 img = img_aberta;
 
+se2 = strel('disk', 10,0);
+img = imerode(img,se2)
+
 % Detectar objetos e rotulá-los
 [labeled_img, num_objects] = bwlabel(img);
 
@@ -78,7 +55,7 @@ for k = 1:num_objects
     large_objects_count = large_objects_count + 1;
   endif
 endfor
-
+;
 % Exibir o número de objetos grandes na imagem
 figure;
 imshow(labeled_img);
@@ -90,5 +67,3 @@ text(10, 10, sprintf('Número de Moedas: %d', large_objects_count), ...
 
 
 
-
->>>>>>> c1ae4bd2787a889d61cbc8dbf9e4a0379ae01fdc
