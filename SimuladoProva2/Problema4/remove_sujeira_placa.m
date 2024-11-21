@@ -28,4 +28,5 @@ title('Imagem Binária');
 subplot(1, 2, 2);
 imshow(opened_img);
 title('Imagem com Abertura');
+imwrite(opened_img,'placa2limpa.bmp');
 
