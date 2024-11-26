@@ -25,12 +25,12 @@ Posições<br>
 6_add_img<br>
 
 ### Aula 02
-1_if_cinza.m <br>
-2_if_resize.m<br>
+1_if_cinza.m //rgb2gray<br>
+2_if_resize.m //mudar tamanho de imagem<br>
 3_alinhar.m<br>
-4_equalizar histograma.m<br>
-5_juntar_imagens.m<br>
-6_cortar_imagen.m<br>
+4_equalizar histograma.m //revelar mensagem de imagem escura<br>
+5_juntar_imagens.m //colocar imagem lado a lado<br>
+6_cortar_imagen.m //mostrar parte especifica<br>
 
 ### Aula 03
 1_ruidos.m //gaussian, salt pepper<br>
