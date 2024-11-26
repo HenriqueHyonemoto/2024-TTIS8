@@ -14,7 +14,8 @@ Posições<br>
 | 4 | 5 |(6)| <br>
 | 7 | 8 | 9 |
 
-## Prova
+## Exercicios
+### Aula 01
 1_add_quadrado_preto <br>
 2_img_clara<br>
 2_img_escura<br>
@@ -22,23 +23,49 @@ Posições<br>
 4_quatro_niveis_especificos<br>
 5_oito_niveis<br>
 6_add_img<br>
-7_niveis_de_cinza<br>
-8_Redimensionar_MudarTamanho<br>
-10_EqualizarHistograma_(TornarMsgEscuraNitida)<br>
-11_juntar_imagens_direita<br>
-11a_juntar_imagens_baixo<br>
-12_cortar_imagen<br>
-13_add_ruidos_pepper_gaussian<br>
-14_bandas_separarRGB<br>
-15_variasbandas<br>
-16_SuavizarRuido<br>
-17_AplicarMatrizEmRuido<br>
-18_processamento_digital_imgs_(gerarfiguras_barras)<br>
-19_filtros_barras_verticais_horizontais<br>
-20_filtros_sobel_cannu_roberts_prewitt_CustomImg<br>
-21_filtro_qualidade<br>
-22_InserirMensagens<br>
-23_ExtrairMensagens<br>
+
+### Aula 02
+1_if_cinza.m <br>
+2_if_resize.m<br>
+3_alinhar.m<br>
+4_equalizar histograma.m<br>
+5_juntar_imagens.m<br>
+6_cortar_imagen.m<br>
+
+### Aula 03
+1_ruidos.m<br>
+2_bandas.m<br>
+3_variasbandas.m<br>
+4_cimabaixo.m<br>
+5_ruido.m<br>
+
+### Aula 04
+1_ruido.m<br>
+2_ruido.m<br>
+3_filtro.m<br>
+4_processamento_digital_imgs.m<br>
+5_filtros.m<br>
+
+### Aula05
+1_edgea.m<br>
+1_filtros.m<br>
+2_filtros.m<br>
+3_Esteganografia.m<br>
+3_Esteganografia2.m<br>
+
+### Aula06 
+Ex1_Signal.m<br>
+
+### Aula07
+Abertura.m<br>
+
+### Aula10 
+Combinado.m<br>
+Dilatacao.m<br>
+Erosao.m<br>
+Fechamento.m<br>
+
+
 
 
 
