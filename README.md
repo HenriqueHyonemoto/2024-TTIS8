@@ -33,37 +33,37 @@ Posições<br>
 6_cortar_imagen.m<br>
 
 ### Aula 03
-1_ruidos.m<br>
-2_bandas.m<br>
+1_ruidos.m //gaussian, salt pepper<br>
+2_bandas.m //bandas R G B<br>
 3_variasbandas.m<br>
-4_cimabaixo.m<br>
-5_ruido.m<br>
+4_cimabaixo.m //coloca uma imagem em baixo da outra<br>
+5_ruido.m //suavizar imagem, remover ruido<br>
 
 ### Aula 04
 1_ruido.m<br>
 2_ruido.m<br>
-3_filtro.m<br>
+3_filtro.m //filtro matriz conv2<br>
 4_processamento_digital_imgs.m<br>
-5_filtros.m<br>
+5_filtros.m //barras horinzontais e verticais<br>
 
 ### Aula05
-1_edgea.m<br>
-1_filtros.m<br>
-2_filtros.m<br>
-3_Esteganografia.m<br>
-3_Esteganografia2.m<br>
+1_edgea.m //filtros sobel,canny,roberts,prewitt<br>
+1_filtros.m //filtros sobel,canny,roberts,prewitt<br>
+2_filtros.m //calcular a correlação entre a imagem original e a comprimida<br>
+3_Esteganografia.m //esconder imagem em RGB<br>
+3_Esteganografia2.m //retirar imagem em RGB<br>
 
 ### Aula06 
-Ex1_Signal.m<br>
+Ex1_Signal.m //alteração 4 pixeis canto superior esquerdo<br>
 
 ### Aula07
-Abertura.m<br>
+Abertura.m //Elimina pequenos componentes e suaviza o contorno<br>
 
 ### Aula10 
-Combinado.m<br>
-Dilatacao.m<br>
-Erosao.m<br>
-Fechamento.m<br>
+Combinado.m //Selecionar Contorno<br>
+Dilatacao.m //elimina buracos finos, une objetos, aumenta area<br>
+Erosao.m //objetos maiores sao reduzidos, elimina objetos finos<br>
+Fechamento.m //Fecha pequenos buracos e conecta componentes.<br>
 
 
 
