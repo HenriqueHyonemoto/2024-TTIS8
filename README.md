@@ -65,6 +65,14 @@ Dilatacao.m //elimina buracos finos, une objetos, aumenta area<br>
 Erosao.m //objetos maiores sao reduzidos, elimina objetos finos<br>
 Fechamento.m //Fecha pequenos buracos e conecta componentes.<br>
 
+### SimuladoProva2
+Problema1 -> AberturaRio
+Problema2 -> Conta objetos
+Problema3 -> Diminuir tamanho de arquivo
+Problema4  -> Limpar sujeira de imagem
+
+
+
 
 
 
