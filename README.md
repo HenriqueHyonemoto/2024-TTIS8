@@ -16,13 +16,13 @@ Posições<br>
 
 ## Exercicios
 ### Aula 01
-1_add_quadrado_preto <br>
+1_add_quadrado_preto //adicionar quadrado preto na imagem<br>
 2_img_clara<br>
 2_img_escura<br>
 3_binarizar_imagem<br>
 4_quatro_niveis_especificos<br>
 5_oito_niveis<br>
-6_add_img<br>
+6_add_img adicionar imagem no canto de outra imagem<br>
 
 ### Aula 02
 1_if_cinza.m //rgb2gray<br>
